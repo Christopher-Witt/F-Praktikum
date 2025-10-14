@@ -1,0 +1,1 @@
+print('Testing if __file__ is defined when executing a script with -c option')
