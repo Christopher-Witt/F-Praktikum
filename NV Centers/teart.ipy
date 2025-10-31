@@ -1,0 +1,9 @@
+x=[i for i in range (200)]
+y=[i**2 for i in x]
+import matplotlib.pyplot as plt
+plt.plot(x,y)
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+plt.title('Simple Plot of y = x^2')
+plt.grid()
+plt.show()
